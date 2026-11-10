@@ -1,0 +1,16 @@
+{
+  "dataset": "rgbd_bonn_moving_obstructing_box",
+  "total_rgb_frames": 590,
+  "candidate_rgb_frames": 590,
+  "paired_rgbd_frames": 590,
+  "unpaired_rgb_frames": 0,
+  "valid_vo_frames": 590,
+  "failed_attempts": 0,
+  "unprocessed_paired_frames": 0,
+  "groundtruth_matched_frames": 589,
+  "max_groundtruth_time_delta_ms": 16.720056533813477,
+  "ate_translation_rmse_m": 0.61881701383548,
+  "rpe_translation_rmse_m": 0.012830934310008691,
+  "rpe_rotation_rmse_deg": 0.7572216499652452,
+  "groundtruth_profile": "bonn"
+}

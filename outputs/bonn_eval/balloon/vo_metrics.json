@@ -1,0 +1,16 @@
+{
+  "dataset": "rgbd_bonn_balloon",
+  "total_rgb_frames": 439,
+  "candidate_rgb_frames": 439,
+  "paired_rgbd_frames": 438,
+  "unpaired_rgb_frames": 1,
+  "valid_vo_frames": 438,
+  "failed_attempts": 0,
+  "unprocessed_paired_frames": 0,
+  "groundtruth_matched_frames": 438,
+  "max_groundtruth_time_delta_ms": 16.65019989013672,
+  "ate_translation_rmse_m": 0.4220802287211023,
+  "rpe_translation_rmse_m": 0.013806703527597443,
+  "rpe_rotation_rmse_deg": 0.5757879343960779,
+  "groundtruth_profile": "bonn"
+}

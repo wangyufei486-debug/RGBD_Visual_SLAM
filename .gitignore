@@ -1,0 +1,47 @@
+# 本地运行环境与 colcon 产物
+/.venv/
+/.vscode/
+/build/
+/install/
+/log/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# 原始数据、压缩包、地图数据库和完整日志仅保留在本地。
+/data/*
+!/data/.gitkeep
+/outputs/*
+!/outputs/.gitkeep
+
+# GitHub 展示图与可核查的轻量实验摘要。
+!/outputs/orb_matches.png
+!/outputs/pnp_inliers.png
+!/outputs/vo_vs_groundtruth.png
+!/outputs/rtabmap_room_verified_rviz.png
+!/outputs/rtabmap_room_eval/
+/outputs/rtabmap_room_eval/*
+!/outputs/rtabmap_room_eval/report.md
+!/outputs/rtabmap_room_eval/loop_constraints.csv
+!/outputs/rtabmap_room_eval/loop_examples.png
+!/outputs/rtabmap_room_eval/trajectory_comparison.png
+!/outputs/bonn_eval/
+/outputs/bonn_eval/*
+!/outputs/bonn_eval/report.md
+!/outputs/bonn_eval/balloon/
+/outputs/bonn_eval/balloon/*
+!/outputs/bonn_eval/balloon/vo_metrics.json
+!/outputs/bonn_eval/balloon/slam_metrics.json
+!/outputs/bonn_eval/balloon/vo_vs_groundtruth.png
+!/outputs/bonn_eval/balloon/slam_trajectory_comparison.png
+!/outputs/bonn_eval/balloon/dynamic_rgb_frame_0057.png
+!/outputs/bonn_eval/balloon/rtabmap_rviz.png
+!/outputs/bonn_eval/moving_obstructing_box/
+/outputs/bonn_eval/moving_obstructing_box/*
+!/outputs/bonn_eval/moving_obstructing_box/vo_metrics.json
+!/outputs/bonn_eval/moving_obstructing_box/slam_metrics.json
+!/outputs/bonn_eval/moving_obstructing_box/vo_vs_groundtruth.png
+!/outputs/bonn_eval/moving_obstructing_box/slam_trajectory_comparison.png
+!/outputs/bonn_eval/moving_obstructing_box/dynamic_rgb_frame_0202.png
+!/outputs/bonn_eval/moving_obstructing_box/rtabmap_rviz.png

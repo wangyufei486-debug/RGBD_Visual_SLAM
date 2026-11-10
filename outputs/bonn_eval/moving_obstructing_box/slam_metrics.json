@@ -1,0 +1,34 @@
+{
+  "dataset": "rgbd_bonn_moving_obstructing_box",
+  "published_rgbd_pairs": 590,
+  "odom_quality_entries": 586,
+  "odom_positive_frames": 585,
+  "odom_zero_frames": [
+    4
+  ],
+  "odom_unlogged_frame_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "odom_positive_quality_median": 307.0,
+  "odom_positive_quality_min_frame": [
+    190,
+    88
+  ],
+  "odom_log_stamp_match_max_ms": 0.82474,
+  "rtabmap_processed_frames": 106,
+  "explicit_drop_warnings": 0,
+  "rejected_global_loop_candidates": 19,
+  "database_nodes": 106,
+  "graph_nodes": 42,
+  "groundtruth_matched_nodes": 42,
+  "max_ros_map_delta_ms": 0.000127,
+  "max_groundtruth_delta_ms": 16.589879989624023,
+  "odom_ate_translation_rmse_m": 0.6308626276694062,
+  "optimized_ate_translation_rmse_m": 0.5789605485472585,
+  "neighbor_links": 41,
+  "global_loop_links": 0,
+  "local_space_links": 1
+}
